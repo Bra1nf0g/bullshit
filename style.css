@@ -1,9 +1,9 @@
-                .body{
-                	font-family: "Arial" ;
-                	background: #fff;
-                }
+        .body{
+        	font-family: "Arial" ;
+        	background: #fff;
+        }
 
-                .site-layout{
+        .site-layout{
 			margin: 0 auto;
 			position: relative;
 		}
@@ -123,11 +123,15 @@
 		}
 		.community-section{
 			width: 1025px;
-			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
 
 		}
 		.community-section-content{
 			display: flex;
+		}
+		.community-content__desc{
+			padding-top: 90px;
 		}
 		.community-content__logo{
 			background-image: url("community-logo.jpg");
