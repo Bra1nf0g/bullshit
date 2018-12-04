@@ -1,17 +1,17 @@
-        .body{
-        	font-family: "Arial" ;
-        	background: #fff;
-        }
+                .body{
+                	font-family: "Arial" ;
+                	background: #fff;
+                }
 
-        .site-layout{
+                .site-layout{
 			margin: 0 auto;
 			position: relative;
 		}
 		.header{
 			position: absolute;
 			top: 0px;
-            left: 0;
-            right: 0; 
+                        left: 0;
+                        right: 0; 
 		}
 		.nav{
 			text-align: center;
@@ -58,10 +58,10 @@
 			text-align: center;
 		}
 		.home-section__title{
-            color: #fff;
-            font-size: 36px;
-            text-transform: uppercase;
-            margin-bottom: 20px;
+                        color: #fff;
+                        font-size: 36px;
+                        text-transform: uppercase;
+                        margin-bottom: 20px;
 		}
 		.home-section__text{
 			color: #fff;
