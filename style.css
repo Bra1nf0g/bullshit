@@ -129,7 +129,7 @@
 			display: flex;
 		}
 		.community-content__logo{
-			background-image: url("community-content__logo");
+			background-image: url("community-logo.jpg");
 			background-repeat: no-repeat;
 			background-size: auto;
 			margin-left: auto;
