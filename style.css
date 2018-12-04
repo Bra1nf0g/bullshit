@@ -123,6 +123,7 @@
 		}
 		.community-section{
 			width: 1025px;
+			text-align: center;
 
 		}
 		.community-section-content{
@@ -132,7 +133,7 @@
 			background-image: url("community-logo.jpg");
 			background-repeat: no-repeat;
 			background-size: auto;
-			margin-left: auto;
-			margin-right: auto;
+			background-position: center;
+			
 		}
 
