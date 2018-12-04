@@ -137,12 +137,17 @@
 			
 		}
 		.community-section__item{
+			text-align: center;
 
 		}
 		.community-section__title{
 			font-size: 18px;
 			font-weight: bold;
 			text-transform: uppercase;
+
+		}
+		.community-section__text{
+			font-size: 12px;
 
 		}
 
