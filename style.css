@@ -129,16 +129,20 @@
 		}
 		.community-section-content{
 			display: flex;
+			align-items: center;
 		}
 		.community-content__desc{
-			padding-top: 90px;
+			
 		}
 		.community-content__logo{
+			display: block;
 			background-image: url("community-logo.jpg");
 			background-repeat: no-repeat;
 			background-size: auto;
 			background-position: center;
-			
+			width: 59px;
+			height: 55px;
+			margin-left: 110px;
 		}
 		.community-section__item{
 			text-align: center;
