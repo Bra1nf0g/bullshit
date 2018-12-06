@@ -167,4 +167,62 @@
 			padding-right: 15px;
 			padding-left: 15px;
 		}
+		.sing-section{
+			height: 100vh;
+			min-height: 700px;
+			background: #2f212b;
+			
+			background-image: url("Livello 3.jpg");
+			background-repeat: no-repeat;
+			background-position: center  bottom;
+			background-size: cover;
+			
+
+
+		}
+		
+		.sing-section__item{
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+
+		}
+		.sign-section__name{
+			color: #fff;
+			font-size: 26px;
+			font-weight: bold;
+			text-transform: uppercase;
+
+
+		}
+		.sing-section-enter{
+			font-size: 16px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			width: 280px;
+			height: 60px;
+			border-radius: 3px 0 0 3px;
+			border: 0;
+			
+		}
+		.sing-section__enter-button{
+			color: #fff;
+			background-color: #16a085;
+			border: 0;
+			width: 63px;
+			height: 60px;
+			display: inline-block;
+			border: none;
+			cursor: pointer;
+			text-transform: uppercase;
+			border-radius: 0 3px 3px 0;
+
+
+		}
+		.sing-section__enter-button:hover{
+			background-color: #0e826b;
+			color: #fff;
+
+		}
 
