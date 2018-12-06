@@ -146,7 +146,7 @@
 			
 		}
 		.community-section-content__logo{
-			
+			margin-bottom: 15px;
 
 		}
 		.community-section-conten__item{
@@ -177,8 +177,6 @@
 			background-position: center  bottom;
 			background-size: cover;
 			
-
-
 		}
 		
 		.sing-section__item{
@@ -194,6 +192,9 @@
 			text-transform: uppercase;
 
 
+		}
+		.sing-section__action-window{
+		
 		}
 		.sing-section-enter{
 			font-size: 16px;
