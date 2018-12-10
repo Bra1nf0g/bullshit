@@ -56,7 +56,7 @@
 			text-align: center;
 
 		}
-		.home-section__item{
+		.home-section__content{
 
 		}
 
@@ -95,7 +95,7 @@
 			min-height: 500px;
 
 		}
-		.servies-section-content{
+		.servies-section__content{
 			width: 1025px;
 			text-align: left;
 			background-image: url("servies-section-img.jpg");
@@ -108,11 +108,11 @@
 			padding-bottom: 90px;
 
 		}
-		.servies-section-content-about{
+		.servies-section__content-about{
 			width: 398px;
 			
 		}
-		.servies-section-content__title{
+		.servies-section__content-title{
 			margin-bottom: 40px;
 			text-transform: uppercase;
 			font-size: 20px;
@@ -120,7 +120,7 @@
 			color: #16a085;
 
 		}
-		.servies-section-content__text{
+		.servies-section__content-text{
 			font-size: 14px;
 			font-family: "Myriad Pro"''
 			margin-bottom: 40px;
@@ -135,69 +135,71 @@
 			padding-bottom: 90px;
 
 		}
-		.community-section-content{
+		.community-section__content{
 			display: flex;
 			align-items: center;
 
 		}
-		.community-section-content__desc{
+		.community-section__content-desc{
 			align-items: center;
 
 			
 		}
-		.community-section-content__logo{
+		.community-section__content-logo{
 			margin-bottom: 15px;
 
 		}
-		.community-section-conten__item{
+		.community-section__conten-about{
 			text-align: center;
 
 		}
-		.community-section-conten__title{
+		.community-section__conten-title{
 			font-size: 18px;
 			font-weight: bold;
 			text-transform: uppercase;
 
 		}
-		.community-section-conten__text{
+		.community-section__conten-text{
 			font-size: 12px;
 
 		}
-		.community-section-content__image{
+		.community-section__content-image{
 			padding-right: 15px;
 			padding-left: 15px;
 		}
-		.sing-section{
-			height: 100vh;
+		.subscription-section{
+            height: 100vh;
 			min-height: 700px;
-			background: #2f212b;
-			
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			background-image: url("Livello 3.jpg");
 			background-repeat: no-repeat;
 			background-position: center  bottom;
 			background-size: cover;
+			text-align: center;
 			
 		}
 		
-		.sing-section__item{
-			justify-content: center;
-			align-items: center;
-			text-align: center;
+		.subscription-section__content{
 
 		}
-		.sign-section__name{
+		.subscription-section__content-title{
 			color: #fff;
 			font-size: 26px;
 			font-weight: bold;
 			text-transform: uppercase;
-
+			line-height: 1.5;
 
 		}
-		.sing-section__action-window{
-			display: inline-block;
-		
+		.subscription-section__item{
+
 		}
-		.sing-section-enter{
+		.subscription-section__input-box{
+			display: flex;
+
+		}
+		.subscription-section__input-email{
 			font-size: 16px;
 			font-weight: bold;
 			text-transform: uppercase;
@@ -207,23 +209,21 @@
 			height: 60px;
 			border-radius: 3px 0 0 3px;
 			border: 0;
-			
+
 		}
-		.sing-section__enter-button{
+		.subscription-section__enter-button{
 			color: #fff;
 			background-color: #16a085;
 			border: 0;
 			width: 63px;
 			height: 60px;
-			/*display: inline-block;*/
 			border: none;
 			cursor: pointer;
 			text-transform: uppercase;
 			border-radius: 0 3px 3px 0;
 
-
 		}
-		.sing-section__enter-button:hover{
+		.subscription-section__enter-button:hover{
 			background-color: #0e826b;
 			color: #fff;
 
