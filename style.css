@@ -1,39 +1,50 @@
         .body{
-        	font-family: "Arial" ;
-        	background: #fff;
+        	font-family: "Gotham Rounded - Book", Arial, sans-serif;
+            font-size: 12px;
+            font-weight: normal;
 
         }
         .site-layout{
 			margin: 0 auto;
 			position: relative;
 		}
-		.header{
+		header{
 			position: absolute;
-			top: 0px;
+			top: 40px;
             left: 0px;
             right: 0px;
-
+           
+		}
+		.header-logo{
+			display: flex;
+        	align-items: center;
+        	justify-content: center;
+        	top: 5px;
+        	width: 53px;
+            height: 55px;
+            background-image: url("logo.png");
 		}
 		.nav{
-
-			text-align: center;
-			text-transform: uppercase;
-			padding: 70px 0 85px;
-
-		}
-		.nav-list{
+			display: flex;
+        	align-items: center;
+        	justify-content: center;
 
 		}
-		.nav-list__item{
-			display: inline-block;
-			padding-right: 25px;
-			padding-left: 25px;
-			font-size: 16px;
-			text-decoration: none;
+		.nav-bar{
+            list-style: none;
+        	display: flex;
+
+		}
+		.nav-bar__item{
+			margin-right: 25px;
+			margin-left: 25px
 
 		}
 		.nav-link{
 			color: #fff;
+        	font-size: 16px;
+        	letter-spacing: 2.4px;
+        	text-transform: uppercase;
 		
         }
 
@@ -57,37 +68,42 @@
 
 		}
 		.home-section__content{
+            width: 499px;
+            height: 135px;
 
 		}
 
 		.home-section__title{
             color: #fff;
             font-size: 36px;
+            font-weight: bold;
             text-transform: uppercase;
-            margin-bottom: 15px;
+            letter-spacing: 5.4px;
 
 		}
 		.home-section__text{
 			color: #fff;
-			font-size: 16px;
-			margin-bottom: 20px;
+            font-size: 16px;
+            letter-spacing: 2.4px;
 
 		}
 		.enter-button{
+			cursor: pointer;*/
+			font-family: "Gotham Rounded - Book", Arial, sans-serif;
 			color: #fff;
 			background-color: #16a085;
 			border: 0;
-			padding: 20px 30px;
+			padding: 21px 31px 18px 31px;
 			display: inline-block;
 			font-size: 12px;
 			text-transform: uppercase;
 			cursor: pointer;
 			border-radius: 3px;
-
 		}
 		.enter-button:hover{
 			background-color: #0e826b;
 			color: #fff;
+			text-decoration: none; 	
 
 		}
 		.servies-section{
@@ -96,7 +112,9 @@
 
 		}
 		.servies-section__content{
-			width: 1025px;
+			width: 1280px;
+            height: 494px;
+            background-color: #f5f6f7;
 			text-align: left;
 			background-image: url("servies-section-img.jpg");
 			background-position: right bottom; 
@@ -127,7 +145,9 @@
 
 		}
 		.community-section{
-			width: 1025px;
+            width: 1280px;
+            height: 483px;
+            background-color: #f5f6f7;
 			text-align: center;
 			margin-left: auto;
 			margin-right: auto;
@@ -168,39 +188,43 @@
 			padding-left: 15px;
 		}
 		.subscription-section{
-            height: 100vh;
+			width: 1280px;
+			height: 790px;
+			/*height: 100vh;*/
 			min-height: 700px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			background-color: #fff;
 			background-image: url("Livello 3.jpg");
 			background-repeat: no-repeat;
 			background-position: center  bottom;
 			background-size: cover;
 			text-align: center;
-			
+
 		}
-		
 		.subscription-section__content{
 
 		}
 		.subscription-section__content-title{
-			color: #fff;
-			font-size: 26px;
-			font-weight: bold;
-			text-transform: uppercase;
-			line-height: 1.5;
+            /*width: 476px;
+            height: 18px;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3.6px;*/
 
 		}
 		.subscription-section__item{
 
 		}
 		.subscription-section__input-box{
-			display: flex;
+			/*display: flex;*/
 
 		}
 		.subscription-section__input-email{
-			font-size: 16px;
+			/*font-size: 16px;
 			font-weight: bold;
 			text-transform: uppercase;
 			text-align: left;
@@ -209,10 +233,10 @@
 			height: 60px;
 			border-radius: 3px 0 0 3px;
 			border: 0;
-
+*/
 		}
 		.subscription-section__enter-button{
-			color: #fff;
+			/*color: #fff;
 			background-color: #16a085;
 			border: 0;
 			width: 63px;
@@ -221,11 +245,62 @@
 			cursor: pointer;
 			text-transform: uppercase;
 			border-radius: 0 3px 3px 0;
-
+*/
 		}
 		.subscription-section__enter-button:hover{
-			background-color: #0e826b;
-			color: #fff;
+			/*background-color: #0e826b;
+			color: #fff;*/
 
+		}
+		.mobile-app-section{
+			/* Style for "Rettangolo" */
+            width: 1280px;
+            height: 396px;
+            background-color: #f5f6f7;
+
+		}
+		.mobile-app-section__content{
+
+		}
+		.mobile-app-section__content-name{
+            /*width: 183px;
+            height: 16px;
+            color: #373737;
+            font-size: 20px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 3px;*/
+		}
+		.mobile-app-section__content-text{
+          /*  width: 840px;
+            height: 54px;
+            color: #373737;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 22px;
+            text-transform: uppercase;
+            letter-spacing: 1.8px;*/
+
+		}
+		.call-to-action-mobile-app-button{
+			/*color: #fff;
+			background-color: #1abc9c;
+			border: 0;
+			padding-left: 20px;
+			display: inline-block;
+			font-size: 16px;
+			font-weight: bold;
+			text-align: left;
+			text-transform: uppercase;
+			text-decoration: none;
+			cursor: pointer;
+			border-radius: 3px 0 0 3px;
+			width: 240px;
+			height: 56px;
+*/
+		}
+		.call-to-action-mobile-app-button:hover{
+			/*background-color: #0e826b;
+			color: #fff;*/
 		}
 

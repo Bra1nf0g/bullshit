@@ -9,19 +9,30 @@
 <body>
 
 <div class="site-layout">
-	<div class="header">
+
+	<header>
 		<div class="nav">
-			<ul class="nav-list">
-				<li class="nav-list__item nav-list__item--current"><a class="nav-link" href="#">home</a></li>
-				<li class="nav-list__item"><a class="nav-link" href="#">photoapp</a></li>
-				<li class="nav-list__item"><a class="nav-link" href="#">home</a></li>
-				<li class="nav-list__item"><a class="nav-link" href="#">design</a></li>
-				<li class="nav-list__item"><a class="nav-link" href="#">download</a></li>
+			<ul class="nav-bar">
+				<li class="nav-bar__item nav-bar__item--current">
+					<a class="nav-link" href="#">home</a>
+				</li>
+				<li class="nav-bar__item">
+					<a class="nav-link" href="#">photoapp</a>
+				</li>
+				<li class="nav-bar__item">
+					<a class="header-log" href="#"><!-- home --></a>
+				</li>
+				<li class="nav-bar__item">
+					<a class="nav-link" href="#">design</a>
+				</li>
+				<li class="nav-bar__item">
+					<a class="nav-link" href="#">download</a>
+				</li>
 			</ul>
 		</div>
-	</div>
+	</header>
 
-	<div class="home-section">
+	<section class="home-section">
 		<div class="home-section__content">
 			<p class="home-section__title">your life in photo</p>
 			<P class="home-section__text">print your life in a simple photo</P>
@@ -29,15 +40,17 @@
 			<button class="enter-button" type="button">get started</button>
 			</div>
 		</div>
-	</div>
+	</section>
 
 	<div class="servies-section">
 		<div class="servies-section__content">
 			<div class="servies-section__content-about">
-				<h2 class="servies-section__content-title" >Rapresent your life with a  simple photo</h2>
-				<p class="servies-section__content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquipex.</p>
+				<h2 class="servies-section__content-title" >Rapresent your life with a simple photo</h2>
+				<p class="servies-section__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut <span>enim ad minim</span> veniam, quis 
+                nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat.</p>
 			</div>
 			<div class="servies-section__content-item">
 				<button class="enter-button" type="button">get started</button>
@@ -75,6 +88,22 @@
 						<input type="submit" value="&#10004;" class="subscription-section__enter-button">
 					</div>
 				</form>
+			</div>
+		</div>
+	</div>
+	
+	<div class="mobile-app-section">
+		<div class="mobile-app-section__content">
+			<p class="mobile-app-section__content-name">download it</p>
+			<p class="mobile-app-section__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		</div>
+		<div class="mobile-app-section__content-item">
+			<div class="apple-store__content-button">
+				<button class="call-to-action-mobile-app-button">apple store</button>
+			</div>
+			<div class="mobile-app-section__content-item">
+			<div class="play-store__content-button">
+				<button class="call-to-action-mobile-app-button">play store</button>
 			</div>
 		</div>
 	</div>
