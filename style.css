@@ -1,7 +1,7 @@
         .body{
-        	font-family: "Gotham Rounded - Book", Arial, sans-serif;
+        	font-family: "Arial MT", Arial, sans-serif;
             font-size: 12px;
-            font-weight: normal;
+            font-weight: 400;
 
         }
         .site-layout{
@@ -36,8 +36,8 @@
 
 		}
 		.nav-bar__item{
-			margin-right: 25px;
-			margin-left: 25px
+			margin-right: 40px;
+			margin-left: 40px
 
 		}
 		.nav-link{
@@ -76,29 +76,32 @@
 		.home-section__title{
             color: #fff;
             font-size: 36px;
-            font-weight: bold;
             text-transform: uppercase;
-            letter-spacing: 5.4px;
+            letter-spacing: 3.6px;
+            margin-bottom: 20px;
 
 		}
 		.home-section__text{
 			color: #fff;
+			font-family: "Myriad Pro", sans-serif;
             font-size: 16px;
-            letter-spacing: 2.4px;
+            letter-spacing: 3.2px;
+            margin-bottom: 24px;
 
 		}
 		.enter-button{
-			cursor: pointer;*/
 			font-family: "Gotham Rounded - Book", Arial, sans-serif;
 			color: #fff;
 			background-color: #16a085;
 			border: 0;
-			padding: 21px 31px 18px 31px;
+			padding: 21px 34px 20px 36px;
 			display: inline-block;
 			font-size: 12px;
 			text-transform: uppercase;
+			letter-spacing: 1.2px;
 			cursor: pointer;
 			border-radius: 3px;
+
 		}
 		.enter-button:hover{
 			background-color: #0e826b;
@@ -128,20 +131,21 @@
 		}
 		.servies-section__content-about{
 			width: 398px;
+			margin-left: 127px;
 			
 		}
 		.servies-section__content-title{
-			margin-bottom: 40px;
-			text-transform: uppercase;
-			font-size: 20px;
-			font-weight: bold;
 			color: #16a085;
+			font-size: 20px;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			margin-bottom: 46px;
 
 		}
 		.servies-section__content-text{
 			font-size: 14px;
-			font-family: "Myriad Pro"''
-			margin-bottom: 40px;
+			letter-spacing: 1.4px;
+			margin-bottom: 45px;
 
 		}
 		.community-section{
